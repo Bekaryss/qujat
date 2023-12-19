@@ -1,0 +1,9 @@
+.app {
+    height: 100vh;
+    font-family: Inter, serif;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}

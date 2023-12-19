@@ -1,0 +1,16 @@
+version: "3.9"
+
+name: "qujat-nginx"
+
+networks:
+ default:
+   name: qujat-backend-network
+   external: false
+
+services:
+  reverse_proxy:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro

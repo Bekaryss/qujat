@@ -1,0 +1,134 @@
+:root{
+    /* COLOR */
+    --black: #2C2C2C;
+    --ocean-color: #3b7197;
+    --primary-color: #EBECEE;
+    --bg-light: #f9f9ff;
+    --light-other-divider: rgba(76, 78, 100, 0.12);
+    --main-red: #CE3E1E;
+    --gray-800:#9193A3
+
+    /* TRANSITION */
+    --tran-04: all 0.4s ease;
+    --tran-bg-03: all  0.3s ease-in-out;
+
+    /* WIDTH */
+    --w-30: 30%
+    --margin-i-right: 20px; 
+
+    /* Button */
+    --main-color-btn: #0193EB;
+    --main-color-700: #0169A8;
+    --main-color-500: #32B1FE;
+    --main-color-300: #8DD4FE;
+    --main-color-200: #BBE5FF;
+    --main-color-100: #E8F6FF;
+    --main-green-500: #00AF54;
+    --main-gray-300: #E6E7EB;
+    --main-red-500: #CE3E1E;
+
+    /* font */
+    --main-font: 'Inter', sans-serif;
+    
+}
+
+input{
+    font-family: var(--main-font) !important;
+    font-size: 18px;
+}
+
+label{
+    font-family: var(--main-font);
+}
+
+
+
+.arrow_icon_size{
+    font-size: clamp(1rem, 0.345rem + 2.21vw, 1.125rem);
+    cursor: pointer;
+}
+
+.main_text{
+    font-family: 'Inter', sans-serif;
+    font-size:clamp(0.75rem, 0.778rem + 0.46vw, 1rem);
+    line-height: 20px;
+    font-weight: 500;
+}
+
+
+
+.btn_text{
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.75rem, 0.586rem + 0.55vw, 1rem);
+    line-height: clamp(0.875rem, 0.711rem + 0.55vw, 1.125rem);
+}
+
+
+.search_input{
+    display: flex;
+    width: 24%;
+}
+
+
+
+.modal_container{
+    position: fixed;
+    background-color: rgba(32, 33, 37, 0.64);
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    inset: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    overflow: auto;
+}
+
+.modal_form_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius:8px;
+    width: clamp(165px, 80%, 550px);
+    height:  clamp(189px, 40%, 400px);
+    padding: 20px 30px;
+    /* gap: 10px; */
+}
+
+.modal_pattern_form_wrapper{
+    height:  clamp(600px, 40%, 600px);
+}
+
+.icon_size{
+    width: clamp(20px, 80%, 60px);
+    height:  clamp(20px, 40%, 60px);
+}
+
+
+.close_icon{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+
+.update_sub_category{
+    height:  clamp(189px, 40%, 289px) !important;
+}
+
+
+@media (max-width: 768px) {
+    .modal_act_form_wrapper{
+        overflow-x: auto;
+    }
+}
+
+@media (max-width:475px) {
+    .search_input{
+        width: 100%;
+        margin: 4px 8px;
+    }
+}
+

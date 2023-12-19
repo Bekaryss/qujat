@@ -1,0 +1,57 @@
+version: "3.9"
+
+name: "qujat-backend"
+
+networks:
+ default:
+   name: qujat-backend-network
+   external: false
+
+
+services:
+  qujat-backend-backoffice-api:
+    image: "qujat-backend-backoffice-api:latest"
+    environment:
+      Backend__Database__ApplicationDbConnectionString: "Host=77.240.39.11; Port=15099; Database=QujatDb;Username=db_creator;Password=12345678;Maximum Pool Size=50;Connection Idle Lifetime=60;"
+      ASPNETCORE_ENVIRONMENT: ${ENVIRONMENT}
+      ASPNETCORE_URLS: http://+:8090
+    build:
+      dockerfile: Qujat.Backoffice.Api/Dockerfile
+  
+  qujat-backend-frontend-api:
+    image: "qujat-backend-frontend-api:latest"
+    environment:
+      Backend__Database__ApplicationDbConnectionString: "Host=77.240.39.11; Port=15099; Database=QujatDb;Username=db_creator;Password=12345678;Maximum Pool Size=50;Connection Idle Lifetime=60;"
+      ASPNETCORE_ENVIRONMENT: ${ENVIRONMENT}
+      ASPNETCORE_URLS: http://+:8080
+    build:
+      dockerfile: Qujat.Api/Dockerfile
+
+  qujat-dashboard:
+    image: "qujat-dashboard:latest"
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ENVIRONMENT}
+      ASPNETCORE_URLS: http://+:8091
+    build:
+      context: ../../qujat-dashboard
+      dockerfile: Dockerfile
+
+  qujat-portal:
+    image: "qujat-dashboard:latest"
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ENVIRONMENT}
+      ASPNETCORE_URLS: http://+:8092
+    build:
+      context: ../../qujat-dashboard
+      dockerfile: Dockerfile
+
+  minio-storage:
+    image: quay.io/minio/minio:latest
+    container_name: qujat-kz-minio
+    environment:
+      MINIO_ROOT_USER: root
+      MINIO_ROOT_PASSWORD: minioPass123!@#qweQWE
+    command: server --console-address ":9001" /data
+    ports:
+      - 9000:9000
+      - 9001:9001

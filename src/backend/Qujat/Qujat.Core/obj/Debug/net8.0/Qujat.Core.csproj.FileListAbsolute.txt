@@ -1,0 +1,15 @@
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\bin\Debug\net8.0\Qujat.Core.deps.json
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\bin\Debug\net8.0\Qujat.Core.runtimeconfig.json
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\bin\Debug\net8.0\Qujat.Core.dll
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\bin\Debug\net8.0\Qujat.Core.pdb
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.csproj.AssemblyReference.cache
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.AssemblyInfoInputs.cache
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.AssemblyInfo.cs
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.csproj.CoreCompileInputs.cache
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.sourcelink.json
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.dll
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\refint\Qujat.Core.dll
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.pdb
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\Qujat.Core.genruntimeconfig.cache
+D:\projects\Web\qujat-kz-monorepo\src\backend\Qujat\Qujat.Core\obj\Debug\net8.0\ref\Qujat.Core.dll

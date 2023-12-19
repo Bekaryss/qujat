@@ -1,0 +1,15 @@
+.user_menu_item{
+    display:flex;
+    margin: 4px 0px;
+}
+
+.user_menu_item:hover{
+    color: var(--ocean-color)
+}
+
+.icon_menu{
+    display:flex;
+    margin: var(--margin-i-right);
+    font-size: 30px;
+    margin-right: 20px;
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "s5E7oDm+azKC5wOFAYG4J1f3be7Pc2gMLsXLRj5QWbk=",
+  "Source": "Qujat.Backoffice.Api",
+  "BasePath": "_content/Qujat.Backoffice.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B83645A9-C40B-4878-ACEC-11DDD03EBDCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{70BD636B-D974-4690-804A-AC43AF94B6A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qujat.Api", "Qujat.Api\Qujat.Api.csproj", "{C7524612-6B87-42DF-B127-2C3E6CFBEDB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qujat.Backoffice.Api", "Qujat.Backoffice.Api\Qujat.Backoffice.Api.csproj", "{55F6E112-EB6C-4967-8F35-57FB0A0D6830}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qujat.Core", "Qujat.Core\Qujat.Core.csproj", "{3F2CFDE3-030D-48A0-B9D9-A5A9C9D18AE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7524612-6B87-42DF-B127-2C3E6CFBEDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7524612-6B87-42DF-B127-2C3E6CFBEDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7524612-6B87-42DF-B127-2C3E6CFBEDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7524612-6B87-42DF-B127-2C3E6CFBEDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F6E112-EB6C-4967-8F35-57FB0A0D6830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F6E112-EB6C-4967-8F35-57FB0A0D6830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F6E112-EB6C-4967-8F35-57FB0A0D6830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F6E112-EB6C-4967-8F35-57FB0A0D6830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2CFDE3-030D-48A0-B9D9-A5A9C9D18AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2CFDE3-030D-48A0-B9D9-A5A9C9D18AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2CFDE3-030D-48A0-B9D9-A5A9C9D18AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2CFDE3-030D-48A0-B9D9-A5A9C9D18AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7524612-6B87-42DF-B127-2C3E6CFBEDB4} = {B83645A9-C40B-4878-ACEC-11DDD03EBDCE}
+		{55F6E112-EB6C-4967-8F35-57FB0A0D6830} = {B83645A9-C40B-4878-ACEC-11DDD03EBDCE}
+		{3F2CFDE3-030D-48A0-B9D9-A5A9C9D18AE0} = {B83645A9-C40B-4878-ACEC-11DDD03EBDCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649B2FED-7CE6-420A-8E1E-E631C00C4B15}
+	EndGlobalSection
+EndGlobal

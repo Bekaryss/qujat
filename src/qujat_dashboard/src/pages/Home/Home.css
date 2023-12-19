@@ -1,0 +1,22 @@
+.home_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.add_thematic_category_block{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.table_container{
+    display: flex;
+    flex-direction: column;
+    /* overflow: auto; */
+}
+
+.input-w{
+    width: var(--w-30);
+}

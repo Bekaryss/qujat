@@ -1,0 +1,244 @@
+.main-wrapper {
+  box-sizing: border-box;
+  min-height: calc(100% - 80px);
+  width: 100%;
+}
+
+.main-container {
+  background-color: #F9F9F9 !important;
+  min-height: 470px;
+  height: 640px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-background {
+  background: url('../../assets/img/main-bg.svg') no-repeat center center;
+  background-size: contain;
+}
+
+//.categories-container {
+//  box-sizing: border-box;
+//  display: flex;
+//  justify-content: center;
+//  flex-direction: column;
+//  align-items: center;
+//}
+
+.categories-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.categories-container::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 50%;
+  min-width: 300px !important;
+  height: 300px;
+  background-color: white;
+  border-top-right-radius: 300px;
+}
+
+.categories-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.main-text {
+  color: #2C2C2C;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 40%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-field {
+  position: relative;  // Set position relative on the container
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 20px 24px;
+  align-items: start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0 1px 4px 0 rgba(195, 201, 214, 0.32);
+
+  input {
+    border: none;
+    outline: none;
+    width: 100%;
+    z-index: 1;  // Set a higher z-index for the input to ensure it stays on top
+  }
+
+  .search-dropdown {
+    position: absolute;
+    top: 100%;  // Position the dropdown below the input
+    left: 0;
+    width: 100%;
+    z-index: 2;  // Set a higher z-index for the dropdown to overlay the input
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.search-container{
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+.search-item{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  
+  &:hover {
+    cursor: pointer;
+    background: #ECF8FF;
+  }
+}
+
+.search-link {
+  text-decoration: none;
+  margin: 4px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-link__category {
+  color: #8A8B9A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.search-link__subCategory {
+  color: #8A8B9A;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.search-link__document {
+  color: #8A8B9A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.categories-header {
+  color: #2C2C2C;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  z-index: 1;
+}
+
+.categories-subheader {
+  margin: 25px 0;
+  color: #8A8B9A;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+  flex: 4;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.categories img {
+  flex: 0 0 auto;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.category-item {
+  position: relative;
+}
+
+.category-item img {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.text-overlay {
+  text-decoration: none;
+  position: absolute;
+  top: 88px;
+  left: 24px;
+  color: #2C2C2C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.documentsCount-overlay {
+  position: absolute;
+  top: 142px;
+  left: 24px;
+}
+
+.documentsCount-row {
+  display: flex;
+  align-items: center;
+}
+
+.documentsCount-img__overlay {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 !important;
+}
+
+.documentCount-overlay__text {
+  margin-top: 2px;
+  margin-left: 8px;
+  color: #667A8B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.pagination-container {
+  margin: 20px 0;
+}

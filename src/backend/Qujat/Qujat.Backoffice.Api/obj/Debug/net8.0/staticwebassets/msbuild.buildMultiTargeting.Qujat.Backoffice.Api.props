@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Qujat.Backoffice.Api.props" />
+</Project>
